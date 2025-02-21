@@ -2,6 +2,8 @@
 
 Simple Python implementation of the Karatsuba algorithm for multiplying two numbers.
 
+This was built as an assignment for the **Foundations of Algorithm Design and Analysis** course at the PUC Minas university.
+
 # About
 
 The Karatsuba algorithm is a fast multiplication method that uses a divide-and-conquer approach to multiply large numbers more efficiently than the traditional grade-school method. Instead of performing O(n²) operations, it reduces the problem into three smaller multiplications of half-sized numbers, achieving a time complexity of `O(n^log₂3) ≈ O(n^1.585)`. This efficiency makes it significantly faster for large inputs.
@@ -35,7 +37,6 @@ python3 test_karatsuba.py
 # Control flow graph
 
 ![](misc/cyclomatic-complexity.png)
-
 Excalidraw source available [here](misc/cyclomatic-complexity.excalidraw).
 
 ## Cyclomatic complexity
