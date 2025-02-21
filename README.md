@@ -36,6 +36,8 @@ python3 test_karatsuba.py
 
 ![](misc/cyclomatic-complexity.png)
 
+Excalidraw source available [here](misc/cyclomatic-complexity.excalidraw).
+
 ## Cyclomatic complexity
 
 Considering `𝑀 = 𝐸 − 𝑁 + 2𝑃`, where 𝐸 is the number of edges (13), 𝑁 is the number of nodes (11), and 𝑃 is the number of connected components (1), the cyclomatic complexity of the Karatsuba algorithm is **4**.
