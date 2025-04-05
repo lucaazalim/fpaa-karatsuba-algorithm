@@ -2,7 +2,7 @@
 
 Simple Python implementation of the Karatsuba algorithm for multiplying two numbers.
 
-This was built as an assignment for the **Foundations of Algorithm Design and Analysis** course at the PUC Minas university.
+This was built as an assignment for the **Foundations of Algorithm Design and Analysis** course at PUC Minas university.
 
 # About
 
